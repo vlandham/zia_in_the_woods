@@ -3,15 +3,23 @@
 body {
   font-family: 'Merriweather', serif;
   font-size: 24px;
+  background-image:url(../img/stardust.png); background-repeat:repeat
+}
+
+#main {
+  background-color: #fff;
+  padding: 40px;
 }
 
 h1,h2,h3 {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   font-size: 54px;
+  border-bottom: thin solid #ddd;
 }
 
 .vcenter {
