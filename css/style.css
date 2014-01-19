@@ -29,7 +29,12 @@ h1,h2,h3 {
   margin-right:-4px;
  }
 
- .container {
-   border-left: thick solid #555;
-   border-right: thick solid #555;
+.container {
+  border-left: thick solid #555;
+  border-right: thick solid #555;
  }
+
+#gumroad {
+  font-size: 40px !important;
+  line-height: 60px !important;
+}

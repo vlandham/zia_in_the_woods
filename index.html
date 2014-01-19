@@ -18,6 +18,7 @@
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/jquery.lightbox.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- end CSS-->
 
@@ -42,15 +43,16 @@
     <div class="clearfix"></div>
     <h2>See a Preview!</h2>
     <p class="text-center">Here are some images from the pdf version of the book. Click on them to make them bigger.</p> 
-    <div class="row">
+    <div class="previews row">
       <div class="col-md-3 col-md-offset-2">
-        <img src="img/preview_1_thumb.png" alt="preview 1"/>
+        <!-- <img src="img/preview_1_thumb.png" alt="preview 1"/> -->
+        <a href="img/preview_1.png"><img src="img/preview_1_thumb.png" alt="preview 1"/></a>
       </div>
       <div class="col-md-3">
-        <img src="img/preview_2_thumb.png" alt="preview 2"/>
+        <a href="img/preview_2.png"><img src="img/preview_2_thumb.png" alt="preview 2"/></a>
       </div>
       <div class="col-md-3">
-        <img src="img/preview_3_thumb.png" alt="preview 3"/>
+        <a href="img/preview_3.png"><img src="img/preview_3_thumb.png" alt="preview 3"/></a>
       </div>
     </div>
     <div class="clearfix"></div>
@@ -59,7 +61,7 @@
     <div class="clearfix"></div>
     <br/>
     <p class="text-center">
-    <a href="https://gum.co/ziawoods" class="gumroad-button ">Buy Zia in the Woods</a>
+    <a href="https://gum.co/ziawoods" class="gumroad-button" id="gumroad">Buy Zia in the Woods</a>
     </p>
     <div class="clearfix"></div>
     <br/>
@@ -75,7 +77,7 @@
       </div>
     </div>
     <div class="clearfix"></div>
-    <h2>About the Authors</div>
+    <h2>About the Authors</h2>
     <div class="row">
       <div class="col-md-8">
         <br/><br/>
@@ -110,6 +112,7 @@
   <script defer src="js/script.js"></script>
   <script src="js/libs/coffee-script.js"></script>
   <script src="js/libs/d3.v3.js"></script>
+  <script src="js/libs/jquery.lightbox.min.js"></script>
   <script src="js/libs/queue.min.js"></script>
   <script type="text/coffeescript" src="coffee/vis.coffee"></script>
   <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
