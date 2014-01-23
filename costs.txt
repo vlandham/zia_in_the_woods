@@ -1,0 +1,6 @@
+type,price,royalty
+kindle,4.00,2.72
+amazon,9.42,2.00
+createspace,9.42,3.88
+gumroad,3.00,2.60
+
